@@ -193,12 +193,12 @@ Expand the statements logically.
 |                |                | 
 
 ### Step 4
-Since ∃A(A ∈ F ⋂ G), we can say that there is a set, A_0, that is an element of F and G.
+Since ∃A(A ∈ F ⋂ G), we can say that there is a set, A<sub>0</sub>, that is an element of F and G.
 | Givens         | Goal           | 
 | -------------- |:--------------:| 
-|  A_0 ∈ F       | ∃A ∈ G(x ∈ A)  | 
-|  A_0 ∈ G       |                |
+|  A<sub>0</sub> ∈ F       | ∃A ∈ G(x ∈ A)  | 
+|  A<sub>0</sub> ∈ G       |                |
 |  ∀A ∈ F(x ∈ F) |                | 
 |                |                | 
 
-_Proof_. Suppose x ∈ ⋂F. Since F ⋂ G ≠ ∅, we can let A_0 be an element of F ⋂ G. Thus, A_0 ∈ F and A_0 ∈ G. Since x ∈ ⋂F and A_0 ∈ F, it follows that x ∈ A_0. But we also know that x A_0 ∈ G, so we can conclude that x ∈ ⋃G.
+_Proof_. Suppose x ∈ ⋂F. Since F ⋂ G ≠ ∅, we can let A<sub>0</sub> be an element of F ⋂ G. Thus, A<sub>0</sub> ∈ F and A<sub>0</sub> ∈ G. Since x ∈ ⋂F and A<sub>0</sub> ∈ F, it follows that x ∈ A<sub>0</sub>. But we also know that x A<sub>0</sub> ∈ G, so we can conclude that x ∈ ⋃G.
