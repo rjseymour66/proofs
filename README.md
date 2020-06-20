@@ -46,7 +46,7 @@ Since x was arbitrary, we can conclude ∀xP(x)
 **Step 3**
 | Given         | Goal           | 
 | ------------- |:--------------:| 
-|   A \ B ⊆ C   |  x ∈ A \ C -> x ∈ B | 
+|   A \ B ⊆ C   |  x ∈ A \ C → x ∈ B | 
 |               |                | 
 |               |                | 
 
@@ -77,4 +77,4 @@ Let x be arbitrary
 ... [Proof of x ∈ A \ C -> x ∈ B goes here]  
 Since x was arbitrary, we can conclude ∀x(x ∈ A \ C -> x ∈ B).
 
-_Proof_. Let x be arbitrary. Suppose x ∈ A \ C. This means that x ∈ A and x ∉ C. Suppose x ∉ B. Then x ∈ A \ B, so since A \ B ⊆ C, x ∈ C. But this contradicts the fact that x ∉ C. Therefore, x ∈ B. Thus, if x ∈ A \ C, then x ∈ B. Since x was arbitrary, we can conclude that ∀x(x ∈ A \ C -> x ∈ B), so A \ B ⊆ C.
+_Proof_. Let x be arbitrary. Suppose x ∈ A \ C. This means that x ∈ A and x ∉ C. Suppose x ∉ B. Then x ∈ A \ B, so since A \ B ⊆ C, x ∈ C. But this contradicts the fact that x ∉ C. Therefore, x ∈ B. Thus, if x ∈ A \ C, then x ∈ B. Since x was arbitrary, we can conclude that ∀x(x ∈ A \ C → x ∈ B), so A \ B ⊆ C.
